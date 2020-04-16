@@ -7,7 +7,7 @@ import java.lang.annotation.RetentionPolicy;
 import java.lang.annotation.Target;
 
 /**
- * 系统日志注解 test
+ * 系统日志注解
  *
  * @author
  */
