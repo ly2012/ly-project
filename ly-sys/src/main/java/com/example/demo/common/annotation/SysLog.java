@@ -7,7 +7,7 @@ import java.lang.annotation.RetentionPolicy;
 import java.lang.annotation.Target;
 
 /**
- * 系统日志注解  看见我了吗
+ * 系统日志注解
  *
  * @author
  */
