@@ -48,7 +48,7 @@ public class OAuth2Realm extends AuthorizingRealm {
     }
 
     /**
-     * 认证(登录时调用)
+     * 认证(验证token及登录人员账号状态)
      */
     @Override
     protected AuthenticationInfo doGetAuthenticationInfo(AuthenticationToken token) throws AuthenticationException {
