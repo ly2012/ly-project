@@ -28,7 +28,7 @@ import java.util.Map;
  *
  * @author
  */
-@Service("sysUserService")
+@Service("demoUserService")
 public class DemoUserServiceImpl extends ServiceImpl<DemoUserDao, DemoUserEntity> implements DemoUserService {
 	
 	@Override
