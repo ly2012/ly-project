@@ -13,14 +13,7 @@ public class LoginController {
 
 	@PostMapping("/login")
 	public String login(@RequestBody Map<String,String> param)throws IOException {
-		String loginName = param.get("loginName");
-		String password = param.get("password");
-		if(loginName == null || loginName.isEmpty()) {
-			return "nologin";
-		}
-		if(password == null || password.isEmpty()) {
-			return "nopassword";
-		}
+		
 		return "success";
 	}
 }
