@@ -9,7 +9,7 @@ spring:
   application:
     name: ly-sys
   profiles:
-    active: dev
+    active: prod
   main:
     #同名bean抛异常不覆盖
     allow-bean-definition-overriding: false

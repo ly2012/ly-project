@@ -19,7 +19,7 @@ spring:
             #你自己的数据库IP地址和数据库名，账号以及密码
             url: jdbc:mysql://localhost:3306/renren_fast?useUnicode=true&characterEncoding=UTF-8&serverTimezone=Asia/Shanghai
             username: root
-            password: abc123456
+            password: 1234
             #初始化大小
             initial-size: 10
             #最大连接数
