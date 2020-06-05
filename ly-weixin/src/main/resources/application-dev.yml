@@ -17,7 +17,7 @@ spring:
         druid:
             driver-class-name: com.mysql.cj.jdbc.Driver
             #你自己的数据库IP地址和数据库名，账号以及密码
-            url: jdbc:mysql://139.9.239.212:3306/renren_fast?useUnicode=true&characterEncoding=UTF-8&serverTimezone=Asia/Shanghai
+            url: jdbc:mysql://localhost:3306/renren_fast?useUnicode=true&characterEncoding=UTF-8&serverTimezone=Asia/Shanghai
             username: root
             password: abc123456
             #初始化大小
